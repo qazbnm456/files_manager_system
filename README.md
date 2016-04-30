@@ -1,12 +1,12 @@
 ## 檔案說明
 
-- [/index.html](#) - 跳轉頁面至[/pages/index.php](#)
-- [/pages/index.php](#) - 跳轉頁面至[/pages/upload.php](#)
-- [/pages/login.php](#) - 登入頁面
-- [/pages/logout.php](#) - 登出頁面
-- [/pages/db_init.php](#) - 資料庫及一些環境變數設定
-- [/pages/upload.php](#) - 主要頁面
-- [/pages/functions.php](#) - 所有功能函數定義
+- [/index.html](https://github.com/qazbnm456/files_manager_system/blob/master/index.html) - 跳轉頁面至[/pages/index.php](https://github.com/qazbnm456/files_manager_system/blob/master/pages/index.php)
+- [/pages/index.php](https://github.com/qazbnm456/files_manager_system/blob/master/pages/index.php) - 跳轉頁面至[/pages/upload.php](https://github.com/qazbnm456/files_manager_system/blob/master/pages/upload.php)
+- [/pages/login.php](https://github.com/qazbnm456/files_manager_system/blob/master/pages/login.php) - 登入頁面
+- [/pages/logout.php](https://github.com/qazbnm456/files_manager_system/blob/master/pages/logout.php) - 登出頁面
+- [/pages/db_init.php](https://github.com/qazbnm456/files_manager_system/blob/master/pages/db_init.php) - 資料庫及一些環境變數設定
+- [/pages/upload.php](https://github.com/qazbnm456/files_manager_system/blob/master/pages/upload.php) - 主要頁面
+- [/pages/functions.php](https://github.com/qazbnm456/files_manager_system/blob/master/pages/functions.php) - 所有功能函數定義
 
 ## db_init.php
 
@@ -27,7 +27,7 @@
 
 ## upload.php
 
-主要頁面，若未登入會重導向至[login.php](#)，若已登入則會根據參數`p`去執行相對應的功能函數，所有功能皆已定義在[functions.php](#)中；沒有參數`p`則會預設執行`[home()](#)`功能函數。
+主要頁面，若未登入會重導向至[login.php](#)，若已登入則會根據參數`p`去執行相對應的功能函數，所有功能皆已定義在[functions.php](https://github.com/qazbnm456/files_manager_system/blob/master/pages/functions.php)中；沒有參數`p`則會預設執行[home()](https://github.com/qazbnm456/files_manager_system/blob/master/pages/functions.php#L1524)功能函數。
 
 這些`p`參數需要在頁面渲染前動作：
 
